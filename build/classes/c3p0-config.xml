@@ -1,0 +1,16 @@
+<c3p0-config>
+	<default-config>
+		<property name="initialPoolSize">5</property>
+		<property name="minPoolSize">5</property>
+		<property name="maxPoolSize">100</property>
+		<property name="maxIdleTime">60</property>
+		<property name="acquireRetryAttempts">1</property>
+		<property name="acquireRetryDelay">2000</property>
+		<!--
+			Declarar el datasource como roto despues de intento de adquisición
+			falido
+		-->
+		<property name="breakAfterAcquireFailure">true</property>
+
+	</default-config>
+</c3p0-config> 
