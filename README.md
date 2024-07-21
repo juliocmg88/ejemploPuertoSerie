@@ -51,3 +51,7 @@ The application requires a specific MySQL database model to work correctly.
 
    ```sh
    java -jar ejemploPuertoSerie.jar
+   ```
+
+## Application Work Screenshots
+Whether you manage to work this application in your local environment or not, you can view its pages [here] (https://github.com/juliocmg88/ejemploPuertoSerie/tree/main/screenshots)
